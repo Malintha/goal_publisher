@@ -21,7 +21,7 @@ int main(int argc, char **argv) {
     int count = 0;
     vector<double> xv, yv;
 
-    std::ifstream infile("/home/malintha/matrice_demo/src/goal_publisher/resources/localgoals.txt");
+    std::ifstream infile("/home/zheng/drone_demo/src/goal_publisher/resources/localgoals.txt");
     double x, y;
     while (infile >> x >> y) {
         cout<<x<<" , "<<y<<endl;
